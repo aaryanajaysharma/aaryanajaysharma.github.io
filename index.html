@@ -3,102 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aaryan Ajay Sharma | Home</title>
+    <title>Aaryan Ajay Sharma</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <a href="index.html" class="nav-brand">Aaryan Ajay Sharma</a>
+
+    <aside id="sidebar">
+        <a href="index.html">
+        <img src="aaryan-sharma.jpg" alt="Aaryan Ajay Sharma" class="profile-photo">
+        </a>
+        <div class="profile-name">Aaryan Ajay Sharma</div>
+        <div class="profile-bio">
+            Student Researcher<br>
+            IIIT Hyderabad<br>
+            <br>
+            Incoming AI Researcher<br>
+            ServiceNow
+        </div>
+
+        <div class="social-links">
+            <a href="mailto:aaryan.s@research.iiit.ac.in" title="Email"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://scholar.google.com/citations?user=eXVOG2YAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> Scholar</a>
+            <a href="https://github.com/aaryanajaysharma" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://x.com/yaaryany" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+
+        <nav>
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="experience.html">Experience</a></li>
+                <li><a href="teaching.html">Teaching</a></li>
+                <li><a href="cv.pdf" target="_blank">CV</a></li>
             </ul>
         </nav>
-    </header>
+
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+        </button>
+    </aside>
 
     <main>
-        <section id="about" class="container">
-            <div class="about-content">
-                <h2>About Me</h2>
-                <p>
-                    I am a B.Tech. (Hons.) and MS by Research student in Computer Science and Engineering at the International Institute of Information Technology, Hyderabad (IIIT-H). My research is focused on the security and privacy aspects of machine learning.
-                </p>
-                <p>
-                    Currently, I am a researcher at the <a href="https://cstar.iiit.ac.in/" target="_blank">Center for Security, Theory & Algorithmic Research (CSTAR)</a> and <a href="https://sypy.iiit.ac.in/" target="_blank">SyPy Group</a>, where I work with <a href="https://ciaoankit.github.io/" target="_blank">Prof. Ankit Gangwal</a> on ownership verification and watermarking of Deep Neural Networks (DNNs) and Graph Neural Networks (GNNs). I am also a Research Intern at <a href="https://www.infosys.com/" target="_blank">Infosys</a>, exploring red teaming of LLMs and the privacy implications of model merging.
-                </p>
-            </div>
-            <div class="about-photo">
-                <img src="aaryan-sharma.jpg" alt="Aaryan Ajay Sharma">
-                <div class="social-links">
-                    <a href="https://github.com/aaryanajaysharma" target="_blank">GitHub</a>
-                    <a href="https://scholar.google.com/citations?user=eXVOG2YAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                    <a href="https://www.linkedin.com/in/aaryanajaysharma" target="_blank">LinkedIn</a>
-                    <a href="https://x.com/yaaryany" target="_blank">X (Twitter)</a>
-                </div>
-            </div>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a B.Tech. (Hons.) and MS by Research student in Computer Science and Engineering at the International Institute of Information Technology, Hyderabad (IIIT-H). My research is focused on the security and privacy aspects of machine learning.
+            </p>
+            <p>
+                Currently, I am a researcher at the <a href="https://cstar.iiit.ac.in/" target="_blank">Center for Security, Theory & Algorithmic Research (CSTAR)</a> and <a href="https://sypy.iiit.ac.in/" target="_blank">SyPy Group</a>, working with <a href="https://ciaoankit.github.io/" target="_blank">Prof. Ankit Gangwal</a>.
+            </p>
+            <p>
+                I was briefly a Research Intern at <a href="https://www.infosys.com/" target="_blank">Infosys</a>, where I explored red teaming of LLMs and privacy implications of model merging. I will be joining <a href="https://www.servicenow.com/" target="_blank">ServiceNow</a> as an AI Researcher, focusing on robust, safe, and context-aware Agentic AI systems.
+            </p>
         </section>
 
-        <section id="interests" class="container">
+        <section id="news">
+            <h2>News</h2>
+            <ul class="news-list">
+                <li>
+                    <span class="news-date">Jan 2026</span>
+                    <span>I will be joining <a href="https://www.servicenow.com/" target="_blank"><strong>ServiceNow</strong></a> as an Applied AI Student Researcher!</span>
+                </li>
+                <li>
+                    <span class="news-date">Sep 2025</span>
+                    <span>Our work on model merging, <a href="https://arxiv.org/abs/2509.23689" target="_blank">"Merge Now, Regret Later"</a>, is available on arXiv and under review at SaTML 2026.</span>
+                </li>
+
+                <li>
+                    <span class="news-date">Aug 2025</span>
+                    <span><a href="https://dl.acm.org/doi/10.1145/3708821.3735347" target="_blank">Poster </a> accepted at <a href="https://asiaccs2025.hust.edu.vn/" target="_blank"><strong>AsiaCCS 2025</strong></a>. See you in Hanoi!</span>
+                </li>
+
+                <li>
+                    <span class="news-date">Jul 2025</span>
+                    <span>Started my Research Internship at <a href="https://www.infosys.com/" target="_blank"><strong>Infosys</strong></a> in Hyderabad.</span>
+                </li>
+                <li>
+                    <span class="news-date">Jun 2024</span>
+                    <span>Our paper <a href="https://arxiv.org/abs/2406.04805" target="_blank">"GENIE"</a> is now on arXiv and under review at TMLR.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="interests">
             <h2>Research Interests</h2>
+            <p>My interests lie broadly in the security and safety of machine learning systems.</p>
             <ul>
                 <li>Adversarial Machine Learning</li>
-                <li>Privacy in AI (Membership Inference, Data Extraction)</li>
-                <li>Model Ownership and Watermarking (DNNs & GNNs)</li>
+                <li>Privacy in AI & Model Ownership/Watermarking</li>
                 <li>Security and Safety of Large Language Models (LLMs)</li>
-                <li>Explainable AI (XAI)</li>
-                <li>Graph Representation Learning</li>
+                <li>Explainable AI (XAI) & Graph Representation Learning</li>
             </ul>
         </section>
 
-        <section id="news" class="container">
-            <h2>News</h2>
-            <ul>
-                <li><strong>July 2025:</strong> Started my Research Internship at Infosys in Hyderabad.</li>
-                <li><strong>June 2024:</strong> Our paper, "GENIE: Watermarking Graph Neural Networks for Link Prediction", is now on arXiv and under review at AAAI 2026.</li>
-                <li><strong>September 2025:</strong> Our work on model merging, "Merge Now, Regret Later", is available on arXiv and under review at SaTML 2026.</li>
-                 <li><strong>January 2025:</strong> Presented a poster at the 20th ACM Asia Conference on Computer and Communications Security.</li>
-            </ul>
-        </section>
-
-        <section id="publications" class="container">
+        <section id="selected-publications">
             <h2>Selected Publications</h2>
-            <div class="publication-list">
-                <article class="publication-card">
-                    <div class="publication-info">
-                        <h3><a href="https://arxiv.org/abs/2406.04805" target="_blank">GENIE: Watermarking Graph Neural Networks for Link Prediction </a></h3>
-                        <p class="authors">VSP Bachina*, Ankit Gangwal, Aaryan Ajay Sharma*, and Charu Sharma (2024) </p>
-                        <p class="conference">Under Review at AAAI 2026 </p>
-                    </div>
-                    <div class="publication-image">
-                        <img src="paper1.png" alt="Image for GENIE paper">
-                    </div>
-                </article>
+            
+            <div class="publication-item">
+                <div class="pub-img-container">
+                    <img src="paper2.png" alt="Model Merging Teaser">
+                </div>
+                <div class="pub-details">
+                    <h3><a href="https://arxiv.org/abs/2509.23689" target="_blank">Merge Now, Regret Later: The Hidden Cost of Model Merging Is Adversarial Transferability</a></h3>
+                    <div class="pub-authors">Ankit Gangwal and <strong>Aaryan Ajay Sharma*</strong></div>
+                    <div class="pub-venue">Under Review at SaTML 2026</div>
+                </div>
+            </div>
 
-                <article class="publication-card">
-                    <div class="publication-info">
-                        <h3><a href="https://arxiv.org/abs/2509.23689" target="_blank">Merge Now, Regret Later: The Hidden Cost of Model Merging Is Adversarial Transferability </a></h3>
-                        <p class="authors">Ankit Gangwal and Aaryan Ajay Sharma* (2025a) </p>
-                        <p class="conference">Under Review at SaTML 2026 </p>
-                    </div>
-                    <div class="publication-image">
-                         <img src="paper2.png" alt="Image for Model Merging paper">
-                    </div>
-                </article>
+            <div class="publication-item">
+                <div class="pub-img-container">
+                    <img src="paper1.png" alt="GENIE Teaser">
+                </div>
+                <div class="pub-details">
+                    <h3><a href="https://arxiv.org/abs/2406.04805" target="_blank">GENIE: Watermarking Graph Neural Networks for Link Prediction</a></h3>
+                    <div class="pub-authors">VSP Bachina*, Ankit Gangwal, <strong>Aaryan Ajay Sharma*</strong>, and Charu Sharma</div>
+                    <div class="pub-venue">Under Review at TMLR</div>
+                </div>
+            </div>
+
+            <div style="text-align: right; margin-top: 10px;">
+                <a href="publications.html">View all publications &rarr;</a>
             </div>
         </section>
-
-        <section id="contact" class="container">
-            <h2>Contact</h2>
-            <p>You can reach me via email at: <a href="mailto:aaryan.s@research.iiit.ac.in">aaryan.s@research.iiit.ac.in</a> </p>
-        </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Aaryan Ajay Sharma. All rights reserved.</p>
-        </div>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
