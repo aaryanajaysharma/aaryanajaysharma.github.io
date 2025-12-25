@@ -324,10 +324,4 @@ p {
         gap: 5px;
     }
 }
-.address {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    margin-bottom: 10px;
-    line-height: 1.5;
-}
 
