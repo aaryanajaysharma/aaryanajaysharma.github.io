@@ -265,18 +265,18 @@ p {
     font-size: 0.95rem;
 }
 
-/* Experience List */
-.experience-item {
+/* Experience & Project List */
+.experience-item, .project-item {
     margin-bottom: 30px;
 }
 
-.experience-item h3 {
+.experience-item h3, .project-item h3 {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     color: var(--primary-color);
 }
 
-.experience-item h4 {
+.experience-item h4, .project-item h4 {
     margin: 5px 0;
     font-weight: 500;
     color: var(--text-muted);
@@ -287,6 +287,63 @@ p {
     color: #888;
     margin-bottom: 10px;
     font-style: italic;
+}
+
+.tech-stack {
+    margin: 8px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tech-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background-color: rgba(12, 175, 147, 0.12);
+    color: var(--accent-color);
+    border: 1px solid rgba(12, 175, 147, 0.25);
+}
+
+body.dark-mode .tech-badge {
+    background-color: rgba(231, 139, 6, 0.15);
+    border-color: rgba(231, 139, 6, 0.3);
+    color: var(--accent-color);
+}
+
+/* Awards & Education Lists */
+.award-list {
+    list-style: none;
+    padding: 0;
+}
+
+.award-list li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.award-list li::before {
+    content: "🏆";
+    position: absolute;
+    left: 0;
+    font-size: 0.85rem;
+    top: 2px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.skill-category h4 {
+    margin: 0 0 6px 0;
+    color: var(--primary-color);
+    font-size: 1rem;
 }
 
 /* Mobile Responsiveness */
@@ -324,4 +381,5 @@ p {
         gap: 5px;
     }
 }
+
 
